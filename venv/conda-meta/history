@@ -1,0 +1,15 @@
+==> 2020-03-24 14:11:44 <==
+# cmd: C:\Users\Nishan\Anaconda3\Scripts\conda-script.py create -p F:/Practices/Python/Django/mysite/mysite/venv python=3.8
+# conda version: 4.8.3
++defaults/win-64::ca-certificates-2020.1.1-0
++defaults/win-64::certifi-2019.11.28-py38_1
++defaults/win-64::openssl-1.1.1e-he774522_0
++defaults/win-64::pip-20.0.2-py38_1
++defaults/win-64::python-3.8.1-h5fd99cc_8_cpython
++defaults/win-64::setuptools-46.1.1-py38_0
++defaults/win-64::sqlite-3.31.1-he774522_0
++defaults/win-64::vc-14.1-h0510ff6_4
++defaults/win-64::vs2015_runtime-14.16.27012-hf0eaf9b_1
++defaults/win-64::wheel-0.34.2-py38_0
++defaults/win-64::wincertstore-0.2-py38_0
+# update specs: ['python=3.8']
