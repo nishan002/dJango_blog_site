@@ -22,7 +22,7 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Russo+One" rel="stylesheet">
 
   </head>
-  <body>
+  <body class='loader'>
     <nav class="navbar navbar-default techfont custom-navbar">
       <div class="container">
 
@@ -54,9 +54,18 @@
             {% else %}
             <li><a class='nav navbar-right' href="{% url 'login' %}" ><span class="glyphicon glyphicon-user"></span></a></li>
           {% endif %}
-
         </ul>
     </div>
   </nav>
+  <div class="content container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="blog_posts">
+          {% block content %}
+          {% endblock %}
+        </div>
+      </div>
+    </div>
+  </div>
   </body>
 </html>
